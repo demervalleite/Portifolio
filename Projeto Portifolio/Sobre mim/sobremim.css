@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background: #000000;  
+    background: -webkit-linear-gradient(to left, #434343, #000000);  
+    background: linear-gradient(to left, #434343, #000000); 
+
+}
+.container_nav{
+    justify-content: space-between;
+    display: flex;
+    width:1280px;
+    height: 80px;
+    background-color:#363636;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    margin-right: 15px;
+       
+}
+
+nav li{
+    color:white;
+      
+}
+ ul li{
+    border-bottom: 2px solid #363636;
+    cursor: pointer;
+}
+ul li:hover{
+    border-bottom: 1px solid #228B22;
+    border-left: 1px solid #228B22 ;
+    border-right: 1px solid #228B22 ;
+    border-right: 1px solid #228B22 ;
+    border-top: 1px solid #228B22 ;
+    cursor: pointer;
+
+}
+
+nav ul{
+    
+    display: flex;
+
+}
+nav a{
+    
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+}
+h1{
+    font-family:  'Roboto Mono', monospace;
+    color:white;
+    margin-left: 100px;
+    font-size: 30px;
+
+
+}
+a{   
+    
+    font-family:  'Roboto Mono', monospace;
+    color:white;
+    text-decoration:none;
+    
+}
+.minha_foto{
+    float: left;
+    width:250px;
+    height: 250px;
+    border-radius: 8px;
+    position: relative;
+    margin-top:180px;
+    position: relative;
+    left: 15%;
+}
+.texto_sm p{  
+    width: 500px;
+    height: 170px;
+    font-family:'Hubballi';
+    font-size: 22px;
+    display: flex;
+    color: #cccccc;
+    position: relative;
+    left: 25%;
+    margin-top: 200px;
+    text-align:justify;
+    
+}
+.btn_curriculo{
+    width: 170px;
+   height: 45px;
+   border-radius: 5px;
+   background-color: #228B22;
+   position: relative;
+   left: 27%;
+   color: black ;
+   border-radius: 5px;
+   transition: 0,5s;  
+}
+.btn_curriculo:hover{
+    width: 170px;
+    height: 45px;
+    border: 2px solid white;
+ }
+.texto_btn_cv{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn_in{
+   width: 170px;
+   height: 45px;
+   border-radius: 5px;
+   background-color: #228B22;
+   position: relative;
+   left: 25%;
+   color: black ;
+   border-radius: 5px;
+   transition: 0,5s;  
+}
+
+.btn_in:hover{
+    width: 170px;
+    height: 47px;
+    border: 2px solid white;
+ }
+
+.texto_btn_in{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.img_in{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.img_jav{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 70%;
+
+}   

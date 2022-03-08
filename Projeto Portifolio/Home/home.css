@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin: 0px;
+    background-color: black;
+    background: #000000;  
+    background: -webkit-linear-gradient(to top, #434343, #000000); 
+    background: linear-gradient(to top, #434343, #000000); 
+
+}
+
+.container_nav{
+    justify-content: space-between;
+    display: flex;
+    width:1280px;
+    height: 80px;
+    background-color:#363636;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    margin-right: 15px;
+       
+}
+
+nav li{
+    color:white;   
+   
+}
+ul li{
+    border-bottom: 2px solid #363636;
+    cursor: pointer;
+   
+
+}
+ul li:hover{
+    border-bottom: 1px solid #228B22;
+    border-left: 1px solid #228B22 ;
+    border-right: 1px solid #228B22 ;
+    border-right: 1px solid #228B22 ;
+    border-top: 1px solid #228B22 ;
+    cursor: pointer;
+
+
+}
+
+nav ul{
+    
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    
+}
+h1{
+    font-family:  'Roboto Mono', monospace;
+    color:white;
+    margin-left: 100px;
+    font-size: 30px;
+}
+a{   
+    font-family:  'Roboto Mono', monospace;
+    color:white;
+    text-decoration:none;  
+}
+
+
+
+
+.apresentação{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    padding-top: 300px;
+    color:white;
+   
+
+}
+.ola{
+    font-family:  'Roboto Mono', monospace;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.nome_home {
+    font-family:  'Roboto Mono', monospace;
+    font-size: 45px;
+    height: 20px;
+    width: 400px;
+   
+
+}
+.desc_nome_home{
+    font-family:  'Roboto Mono', monospace;
+    font-size: 15px;
+    padding-top: 40px;
+
+}
+
+.img_home{
+    margin-left: 50%;
+    margin-top: 5%;
+    height: 769px;
+   
+}
+
+.btn_git{
+   color: black;
+   width: 200px;
+   height: 47px;
+   border-radius: 5px;
+   background-color: #228B22;
+   transition: 0,5s;
+   margin-top: 20px;
+   
+  
+  
+
+}
+.btn_git:hover{
+   width: 202px;
+   height: 48px;
+   border: 2px solid white;
+}
+.img_git{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.texto_btn_git{
+    color:#000000;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.minha_foto{
+    float: left;
+    width: 180px;
+    height: 250px;
+    border-radius: 8px;
+    position: relative;
+    margin-top:170px;
+    position: relative;
+    left: 15%;
+}
+
+
+
+
+
+
+
+
